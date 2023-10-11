@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-VOLUME /data
+
 ENV DB_TYPE=json 
 
 WORKDIR /app
